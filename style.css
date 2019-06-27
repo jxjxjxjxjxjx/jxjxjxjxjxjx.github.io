@@ -73,3 +73,19 @@
 body {
   background-color: #FAD201;
 }
+
+b {
+  font-size: 18px;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FAD201;
+  background-color: Black;
+}
