@@ -73,6 +73,11 @@
   font-size: 12px;
 }
 
+.main li {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 16px;
+}
+
 body {
   background-color: #9EA7A6;
 }
