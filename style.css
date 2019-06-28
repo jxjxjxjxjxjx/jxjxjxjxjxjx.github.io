@@ -30,7 +30,7 @@
 }
 
 .sidenav li {
-  color: #FAD201;
+  color: #9EA7A6;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -71,7 +71,7 @@
 }
 
 body {
-  background-color: #FAD201;
+  background-color: #9EA7A6;
 }
 
 b {
@@ -86,6 +86,6 @@ a {
 }
 
 a:hover {
-  color: #FAD201;
+  color: #9EA7A6;
   background-color: Black;
 }
