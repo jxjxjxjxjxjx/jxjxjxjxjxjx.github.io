@@ -1,0 +1,93 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  text-decoration:none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav img {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidenav li {
+  color: #9EA7A6;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  font-family: 'Arimo',sans-serif;
+  max-width: 50%
+}
+
+.main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.main h1 {
+  font-family: 'Francois One', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+}
+
+.main h2 {
+  font-family: 'Francois One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main i {
+  font-family: 'Francois One', sans-serif;
+  font-size: 12px;
+}
+
+body {
+  background-color: #9EA7A6;
+}
+
+b {
+  font-size: 18px;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9EA7A6;
+  background-color: Black;
+}
