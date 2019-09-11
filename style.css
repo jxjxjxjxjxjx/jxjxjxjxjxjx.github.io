@@ -1,10 +1,30 @@
 body {
   font-family: 'Work Sans', sans-serif;
-  background: #eb0d69;
-  color: #b2fbf6;
+  background: #051b76;
+  color: #eb4850;
 }
 
 nav.navbar {
-  background: #eb0d69;
+  background: #051b76;
   font-weight: bold;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+.text-italic {
+  font-style: italic;
+  color: #eb4850;
+  opacity: 0.7;
+}
+
+a.top {
+  color: #eb4850;
+}
+
+a.top:hover {
+  color: #eb4850;
+  font-weight: bold;
+  text-decoration: none;
 }

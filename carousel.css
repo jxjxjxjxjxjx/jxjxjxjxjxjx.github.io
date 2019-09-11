@@ -4,22 +4,17 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #b2fbf6;
-}
-
-.text-italic {
-  font-style: italic;
-  color: #b2fbf6;
+  color: #051b76;
 }
 
 .btn {
-  color: #eb0d69;
-  background: #b2fbf6;
+  color: #eb4850;
+  background: #051b76;
 }
 
 .btn:hover{
-  background: #eb0d69;
-  color: #b2fbf6;
+  background: #eb4850;
+  color: #051b76;
   font-weight: bold;
 }
 
@@ -28,20 +23,20 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
-  color: #b2fbf6;
+  color: #051b76;
 }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
-  color: #b2fbf6;
+  color: #051b76;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background: #eb0d69;
+  background: #eb4850;
 }
 
 .carousel-item>img {
@@ -50,7 +45,7 @@ body {
   left: 0;
   min-width: 100%;
   height: 32rem;
-  background: #eb0d69;
+  background: #eb4850;
 }
 
 /* MARKETING CONTENT
@@ -93,12 +88,12 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-    color: #b2fbf6;
+    color: #051b76;
   }
 
   .featurette-heading {
     font-size: 50px;
-    color: #b2fbf6;
+    color: #eb4850;
   }
 }
 
