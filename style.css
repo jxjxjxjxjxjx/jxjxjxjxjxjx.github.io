@@ -1,30 +1,18 @@
-body {
-  font-family: 'Work Sans', sans-serif;
-  background: #051b76;
-  color: #eb4850;
+.navigation-title {
+    font-weight: 900;
+    font-family: sans-serif;
 }
 
-nav.navbar {
-  background: #051b76;
-  font-weight: bold;
+.comic-name {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
 }
-
-h1 {
-  text-transform: capitalize;
-}
-
-.text-italic {
-  font-style: italic;
-  color: #eb4850;
-  opacity: 0.7;
-}
-
-a.top {
-  color: #eb4850;
-}
-
-a.top:hover {
-  color: #eb4850;
-  font-weight: bold;
-  text-decoration: none;
-}
+.col-sm {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .col-sm:hover {
+    top: -10px;
+  }
