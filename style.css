@@ -1,14 +1,16 @@
-a, .navigation-title {
+.navigation-title, .navigation-title:hover {
     font-weight: 900;
     font-family: sans-serif;
     text-decoration: none;
     color: black;
+    outline: none;
 }
 
 .comic-name {
     font-family: sans-serif;
     font-weight: 600;
     font-size: 20px;
+    color: black;
 }
 .col-sm {
     position: relative;
