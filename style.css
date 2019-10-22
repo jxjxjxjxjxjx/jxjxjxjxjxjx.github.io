@@ -54,6 +54,6 @@
   font-size: 40px;
 }
 
-.col {
+.col, body {
   font-family: 'Roboto', sans-serif;
 }
