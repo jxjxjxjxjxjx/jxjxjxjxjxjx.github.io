@@ -1,22 +1,55 @@
-.navigation-title, .navigation-title:hover {
-    font-weight: 900;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: black;
-    outline: none;
+.navigation-title,
+.navigation-title:hover {
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  outline: none;
 }
 
 .comic-name {
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
 }
+
 .col-sm {
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-  }
-  .col-sm:hover {
-    top: -10px;
-  }
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.col-sm:hover {
+  top: -10px;
+}
+
+.nav {
+  background: white;
+}
+
+.activo {
+  filter: invert(19%) sepia(94%) saturate(7397%) hue-rotate(218deg) brightness(96%) contrast(95%);
+}
+
+.intro {
+  background: linear-gradient(45deg,#4d8acf,#73b4ff);
+  height:50vh;
+  position: relative;
+  transform: translateY(0%);
+  top: 50%;
+}
+
+.verti {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.segundo {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
